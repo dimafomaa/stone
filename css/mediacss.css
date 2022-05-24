@@ -1,0 +1,32 @@
+@media (max-width: 460px){
+	.menu__link {
+		padding: 20px 19px;
+	}
+	.footer__button {
+		padding: 5px 25px;
+	}
+	.team__list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.team__list-item:not(:last-child) {
+		margin-right: 1px;
+  	}
+	.testimonials__list {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.testimonials__item{
+		margin-bottom: 20px;
+	}
+	.progress__list{
+		flex-wrap: wrap;
+	}
+	.progress__item + .progress__item{
+		margin-left: 0;
+	}
+	.progress__subtitle{
+		text-align: center;
+	}
+}
